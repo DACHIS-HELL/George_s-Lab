@@ -46,3 +46,29 @@ body{
 .thirddiv{
     padding-top: 7%;
 }
+@media only screen and (max-width: 850px){
+    .d-flex{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .double{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+      
+    }
+    .firstdiv{
+        padding-top: 1px ;
+    }
+    .thirddiv{
+        padding-top: 1px;
+    }
+    
+
+  }
